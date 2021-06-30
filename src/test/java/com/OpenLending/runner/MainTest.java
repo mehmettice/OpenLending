@@ -18,7 +18,7 @@ public class MainTest {
 
         @Before
         public void setUp() {
-            Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);git
             Driver.getDriver().manage().window().maximize();
             Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 
